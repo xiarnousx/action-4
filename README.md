@@ -38,3 +38,13 @@ on:
 # Cheat Sheet
 
 - [Cheat Sheet](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet)
+
+# Skipping workflows
+
+By having a commit message that contains `[skip ci]` workflows are not executed.
+
+Example
+
+```bash
+git commit -am "message [skip ci]"
+```
